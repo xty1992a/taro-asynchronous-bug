@@ -25,8 +25,8 @@ Aggregation.config = {
     comp: 'skeleton'
   },
   usingComponents: {
-    // skeleton: './skeleton',
-    skeleton: './raw/skeleton',
+    skeleton: './skeleton',
+    // skeleton: './raw/skeleton',
   }
 }
 
