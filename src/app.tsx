@@ -1,5 +1,6 @@
 import Taro, { Component, Config } from '@tarojs/taro'
 import Index from './pages/other'
+import './lib/propsManager'
 
 import './app.less'
 

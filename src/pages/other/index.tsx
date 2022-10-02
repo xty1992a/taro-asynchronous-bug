@@ -19,12 +19,12 @@ const Other: Taro.FC<Props> = () => {
       <View>页面</View>
       <View>本地展开</View>
       {
-        list.map(it => (<View>{it.type}: {it.data.date}</View>))
+        list.map(it => (<View key={it.type}>{it.type}: {it.data.date}</View>))
       }
 
       <View>子组件展开</View>
       {
-        list.map(it => (<Aggregation payload={it} />))
+        list.map(it => (<Aggregation key={it.type} payload={it} />))
       }
     </View>
   )
